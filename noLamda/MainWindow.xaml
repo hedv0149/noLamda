@@ -1,0 +1,32 @@
+﻿<Window x:Class="noLamda.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:noLamda"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="428" Width="865.4">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="611*"/>
+            <ColumnDefinition Width="108*"/>
+        </Grid.ColumnDefinitions>
+        <Label x:Name="EX1" Content="Ex. 1" HorizontalAlignment="Left" Margin="24,10,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="EX2" Content="Ex. 2" HorizontalAlignment="Left" Margin="24,108,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="EX3" Content="Ex. 3" HorizontalAlignment="Left" Margin="24,206,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="EX4" Content="Ex. 4" HorizontalAlignment="Left" Margin="29,261,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="label1" Content="label" HorizontalAlignment="Left" Margin="406,18,0,0" VerticalAlignment="Top"/>
+        <Button x:Name="buttCFOR" Content="Customers From OR" HorizontalAlignment="Left" Margin="29,36,0,0" VerticalAlignment="Top" Width="372" Click="buttCFOR_Click"/>
+        <Button x:Name="buttPLT1000" Content="Prices Less Than 1000" HorizontalAlignment="Left" Margin="29,60,0,0" VerticalAlignment="Top" Width="372" Click="buttPLT1000_Click"/>
+        <Button x:Name="buttCFGA" Content="Customers From GA" HorizontalAlignment="Left" Margin="29,84,0,0" VerticalAlignment="Top" Width="372" Click="buttCFGA_Click"/>
+        <Button x:Name="buttFiOAC" Content="Firstnames Of All Customers" HorizontalAlignment="Left" Margin="29,134,0,0" VerticalAlignment="Top" Width="372" Click="buttFiOAC_Click"/>
+        <Button x:Name="buttFuOAC" Content="Fullnames Of All Customers" HorizontalAlignment="Left" Margin="29,158,0,0" VerticalAlignment="Top" Width="372" Click="buttFuOAC_Click"/>
+        <Button x:Name="buttS" Content="States" HorizontalAlignment="Left" Margin="29,182,0,0" VerticalAlignment="Top" Width="372" Click="buttS_Click"/>
+        <Button x:Name="buttFTC" Content="First Three Customers" HorizontalAlignment="Left" Margin="29,237,0,0" VerticalAlignment="Top" Width="372" Click="buttFTC_Click"/>
+        <Button x:Name="buttSCA" Content="Customers Sorted Alphabetically" HorizontalAlignment="Left" Margin="29,287,0,0" VerticalAlignment="Top" Width="372" Click="buttSCA_Click"/>
+        <Button x:Name="buttSCBLOL" Content="Customers Sorted By Lenght Of Last" HorizontalAlignment="Left" Margin="29,311,0,0" VerticalAlignment="Top" Width="372" Click="buttSCBLOL_Click" />
+        <Button x:Name="buttSCBP" Content="Customers Sorted By Price" HorizontalAlignment="Left" Margin="29,335,0,0" VerticalAlignment="Top" Width="200"/>
+        <Button x:Name="buttSCBLOFNATBLN" Content="Customers Sorted By Length Of First Name And Then By Last Name" HorizontalAlignment="Left" Margin="29,335,0,0" VerticalAlignment="Top" Width="372" Click="buttSCBLOFNATBLN_Click"/>
+
+    </Grid>
+</Window>
